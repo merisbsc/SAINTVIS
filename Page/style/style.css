@@ -10,13 +10,13 @@ body {
 }
 
 nav {
-    height: 100px;
+    height: 2000px;
     width: 100%;
 }
 
 .logoTop {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 .navigation li {
