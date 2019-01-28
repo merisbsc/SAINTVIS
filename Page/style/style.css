@@ -4,7 +4,7 @@
 }
 
 body {
-    background: black;
+    background: url("../images/pattern1.jpg");
     color: white;
     font-family: Helvetica, sans-serif;
 }
