@@ -9,21 +9,30 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-nav {
-    height: 2000px;
+
+/* INDEX */
+
+#mainpage {
+    display: flex;
+    height: 100%;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .logoTop {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
 }
 
 .navigation li {
-    float: left;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 150%;
 }
 
-.navigation li:hover{
+.navigation li:hover {
     -webkit-transform: scale(1.2, 1.2);
     -moz-transform: scale(1.2, 1.2);
     -ms-transform: scale(1.2, 1.2);
@@ -35,6 +44,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 250px;
 }
 
 li {
@@ -44,4 +54,53 @@ li {
 .navigation a {
     text-decoration: none;
     color: white;
+}
+
+
+/* NAV UNDERPAGES*/
+
+.logoBar {
+    height: 150px;
+    width: 150px;
+}
+
+.underNav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    top: 70px;
+}
+
+.underNav a {
+    color: white;
+    text-decoration: none;
+}
+
+.underNav li {
+    font-weight: bold;
+    float: left;
+}
+
+.underNav li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+
+/* VIDEO */
+
+.title {
+    margin-left: 60px;
+}
+
+.clipVid {
+    margin-left: 60px;
+    margin-top: 20px;
 }
