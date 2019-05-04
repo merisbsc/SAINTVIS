@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <title>SAINT VIS</title>
     <link rel="stylesheet" href="../style/style.css" />
+    <script src="../js/crew.js"></script>
 </head>
 
 <body>
-    <nav id="mainpage">
-        <div class="content">
-            <img src="../images/logo%20-%20split.png" class="logoTop" />
-            <ul class="navigation">
-                <li><a href="pages/video.html">VIDEO</a></li>
-                <li><a href="pages/photo.html">PHOTO</a></li>
-                <li><a href="pages/crew.html">CREW</a></li>
-                <li><a href="pages/equip.html">EQUIP</a></li>
-                <li><a href="pages/contact.html">CONTACT</a></li>
+    <nav id="video_page">
+        <div class="underContent">
+            <img src="../images/logo%20-%20split.png" class="logoBar" />
+            <ul class="underNav">
+                <li><a href="video.html">VIDEO</a></li>
+                <li><a href="photo.html">PHOTO</a></li>
+                <li><a href="crew.html">CREW</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
 
     </nav>
+
+    <h1>CREW</h1>
+
+    <!--Fotos werden noch hinzugefügt, PC kaput und kein Zugriff auf die Bilder-->
+    <div class="slide">
+        <img src="../images/crew/meris.jpg" alt="Meris" class="crew">
+        <img src="../images/crew/tobi.jpg" alt="Tobias" class="crew">
+        <img src="../images/crew/samu.jpg" alt="Samuel" class="crew">
+        <img src="../images/crew/fitzi.jpg" alt="Jakob" class="crew">
+
+        <button onclick="plusDivs(-1)">&#10094;</button>
+        <button onclick="plusDivs(1)">&#10095;</button>
+    </div>
 </body>
 
 </html>
