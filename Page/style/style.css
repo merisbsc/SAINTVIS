@@ -151,11 +151,6 @@ li {
     align-items: center;
 }
 
-.slide img {
-    width: 400px;
-    height: 600px;
-    border: solid 2px white;
-}
 
 .slide button {
     width: 100px;
@@ -163,6 +158,15 @@ li {
     border: none;
     background: rgb(255, 255, 255, 0.1);
 }
+
+.crew {
+    position: absolute;
+    top: 100px;
+    width: 400px;
+    height: 600px;
+    border: solid 2px white;
+}
+
 
 /* CONTACT */
 
