@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../images/pattern1.jpg");
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-left: 3%;
+    margin-top: 18%;
+    font-size: 300%;
+}
+
+/* NAV UNDERPAGES*/
+
+.logoBar {
+    height: 150px;
+    width: 150px;
+}
+
+.underNav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    top: 70px;
+}
+
+.underNav a {
+    color: white;
+    text-decoration: none;
+}
+
+.underNav li {
+    font-weight: bold;
+    float: left;
+    margin: 0 20px;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.underNav li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+
+
+
+
+
+
+
