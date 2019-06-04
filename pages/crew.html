@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>SAINT VIS</title>
     <link rel="stylesheet" href="../style/style.css" />
-    <link rel="stylesheet" href="../style">
+    <link rel="stylesheet" href="../style/crew.css">
     <script src="../js/crew.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 </head>
 
 <body>
@@ -24,18 +25,22 @@
 
     <h1>CREW</h1>
 
-    <!--Fotos werden noch hinzugefügt, PC kaputt und kein Zugriff auf die Bilder-->
-    <div class="slide">
-        <img src="../images/photos/unitedSteps-7.jpg" alt="Meris" class="crew" id="meris">
-        <img src="../images/photos/unitedSteps-3.jpg" alt="Tobias" class="crew" id="tobi">
-        <img src="../images/photos/unitedSteps-7.jpg" alt="Samuel" class="crew" id="samu">
-        <img src="../images/photos/unitedSteps-2.jpg" alt="Jakob" class="crew" id="fitzi">
+    <div class="container">
+        <div id="boxes">
+        <div id="tobi" class="member" onclick="makeBig(this.id)">
+            <p id="tobiP">TH</p>
+        </div>
+        <div id="meris" class="member" onclick="makeBig(this.id)">
+            <p id="merisP">MB</p>
+        </div>
+        <div id="samu" class="member" onclick="makeBig(this.id)">
+            <p id="samuP">SK</p>
+        </div>
+        <div id="fitzi" class="member" onclick="makeBig(this.id)">
+            <p id="fitziP">JF</p>
+        </div>
+        </div>
     </div>
-
-    <button onclick="changeLeft()">&#10094;</button>
-    <button onclick="changeRight()">&#10095;</button>
-
-
 </body>
 
 </html>
