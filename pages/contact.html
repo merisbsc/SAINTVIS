@@ -41,17 +41,11 @@
                 <h2>How can I contact you for busines requirements</h2>
                 <p class="text">No problem at all, just fill out the form below:</p>
 
-                <form action="https://formspree.io/besicmeris@gmail.com" method="POST" encType="multipart/form-data">
-                    E-Mail:
-                    <input type="email" class="email">
-
-                    Name:
-                    <input type="text" class="name">
-
-                    Message:
-                    <textarea class="message"></textarea>
-
-                    <input type="submit" value="SEND">
+                <form id="sendEmail" method="POST" action="https://formspree.io/besicmeris@gmail.com">
+                    <input type="email" name="email" placeholder="YOUR EMAIL..." class="inputs">
+                    <input type="text" name="name" placeholder="YOUR NAME..." class="inputs">
+                    <textarea name="message" placeholder="YOUR MESSAGE..." class="inputs"></textarea>
+                    <button type="submit" class="inputs">SEND</button>
                 </form>
             </div>
         </div>
