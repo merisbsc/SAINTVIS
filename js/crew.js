@@ -110,7 +110,7 @@ function samuBig() {
 
     setTimeout(function() {
         backToDefault();
-    }, 7000);
+    }, 5000);
 }
 
 function tobiBig() {
@@ -132,7 +132,7 @@ function tobiBig() {
 
     setTimeout(function() {
         backToDefault();
-    }, 7000);
+    }, 4000);
 }
 
 function fitziBig() {
