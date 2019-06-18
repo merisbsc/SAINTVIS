@@ -1,5 +1,3 @@
-
-
 function makeBig(id) {
     let merlin = document.getElementById("meris");
     let tobi = document.getElementById("tobi");
@@ -86,7 +84,7 @@ function merisBig() {
 
     setTimeout(function() {
         backToDefault();
-    }, 5000);
+    }, 7000);
 
 
 }
@@ -110,7 +108,7 @@ function samuBig() {
 
     setTimeout(function() {
         backToDefault();
-    }, 5000);
+    }, 7000);
 }
 
 function tobiBig() {
@@ -132,7 +130,7 @@ function tobiBig() {
 
     setTimeout(function() {
         backToDefault();
-    }, 4000);
+    }, 7000);
 }
 
 function fitziBig() {
@@ -155,7 +153,7 @@ function fitziBig() {
 
     setTimeout(function() {
         backToDefault();
-    }, 5000);
+    }, 7000);
 }
 
 // endregion
