@@ -4,9 +4,9 @@
 }
 
 body {
-    background: url("../images/pattern1.jpg");
-    color: white;
-    font-family: Helvetica, sans-serif;
+    background: url("../images/pattern1_light.jpg");
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -17,6 +17,7 @@ h1 {
     margin-top: 18%;
     font-size: 300%;
 }
+
 
 /* NAV UNDERPAGES*/
 
@@ -29,7 +30,7 @@ h1 {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
     text-decoration: none;
     position: absolute;
     right: 50px;
@@ -37,7 +38,7 @@ h1 {
 }
 
 .underNav a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -58,11 +59,3 @@ h1 {
     -o-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
 }
-
-
-
-
-
-
-
-
