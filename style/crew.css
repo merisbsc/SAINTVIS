@@ -5,35 +5,47 @@
     /*height: 80vh;*/
     display: flex;
     justify-content: center;
-
 }
 
 #boxes {
     width: 404px;
     height: 404px;
-    border: solid 2px white;
+    border: solid 2px black;
 }
 
 .member {
     width: 200px;
     height: 200px;
-    border: solid 1px white;
+    border: solid 1px black;
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 200%;
-    background: rgb(255,255,255,0.1);
+    background: rgb(255, 255, 255, 0.1);
 }
 
-.member:hover{
-    background: rgb(255,255,255,0.2);
+.member:hover {
+    background: rgb(255, 255, 255, 0.2);
 }
+
 
 /*.member p {*/
-    /*-webkit-transform: rotate(5deg);*/
-    /*-moz-transform: rotate(5deg);*/
-    /*-ms-transform: rotate(5deg);*/
-    /*-o-transform: rotate(5deg);*/
-    /*transform: rotate(5deg);*/
+
+
+/*-webkit-transform: rotate(5deg);*/
+
+
+/*-moz-transform: rotate(5deg);*/
+
+
+/*-ms-transform: rotate(5deg);*/
+
+
+/*-o-transform: rotate(5deg);*/
+
+
+/*transform: rotate(5deg);*/
+
+
 /*}*/
